@@ -1,0 +1,92 @@
+=========================================
+TEST CASES: Student Grade Calculator
+=========================================
+
+This document outlines the testing scenarios for `grade_calculator.py`. 
+Run these inputs to verify the program behaves as expected.
+
+-----------------------------------------
+1. VALID INPUTS (Equivalence Partitioning)
+-----------------------------------------
+Test Case 1.1: Standard "A" Grade
+- Input Name: Alice
+- Input Marks: 95
+- Expected Output: 
+  Grade: A
+  Message: Excellent! You are doing amazing work! 🌟
+
+Test Case 1.2: Standard "B" Grade
+- Input Name: Bob
+- Input Marks: 85
+- Expected Output: 
+  Grade: B
+  Message: Very Good! Keep it up! 👍
+
+Test Case 1.3: Standard "C" Grade
+- Input Name: Charlie
+- Input Marks: 75
+- Expected Output: 
+  Grade: C
+  Message: Good job! With a little more effort, you can reach the top! 📈
+
+Test Case 1.4: Standard "D" Grade
+- Input Name: Diana
+- Input Marks: 65
+- Expected Output: 
+  Grade: D
+  Message: Passed. Let's work harder next time to boost this score! 📚
+
+Test Case 1.5: Standard "F" Grade
+- Input Name: Evan
+- Input Marks: 45
+- Expected Output: 
+  Grade: F
+  Message: Don't give up! Reach out for help and try again. You can do it! 💪❤️
+
+
+-----------------------------------------
+2. BOUNDARY/EDGE CASES
+-----------------------------------------
+Test Case 2.1: Maximum Possible Marks
+- Input Marks: 100
+- Expected Output: Grade: A
+
+Test Case 2.2: Minimum Possible Marks
+- Input Marks: 0
+- Expected Output: Grade: F
+
+Test Case 2.3: Lower Boundary for "A"
+- Input Marks: 90
+- Expected Output: Grade: A
+
+Test Case 2.4: Just below "A" (Float test)
+- Input Marks: 89.9
+- Expected Output: Grade: B
+
+Test Case 2.5: Lower Boundary for "D" (Pass/Fail line)
+- Input Marks: 60
+- Expected Output: Grade: D
+
+Test Case 2.6: Just below Pass (Float test)
+- Input Marks: 59.9
+- Expected Output: Grade: F
+
+
+-----------------------------------------
+3. ERROR HANDLING & INVALID INPUTS
+-----------------------------------------
+Test Case 3.1: Out of Bounds (Too High)
+- Input Marks: 105
+- Expected Behavior: Loop continues. Prints error: "Invalid input. Marks must be between 0 and 100."
+
+Test Case 3.2: Out of Bounds (Negative)
+- Input Marks: -5
+- Expected Behavior: Loop continues. Prints error: "Invalid input. Marks must be between 0 and 100."
+
+Test Case 3.3: Non-Numeric/String Input
+- Input Marks: "Eighty" or "abc"
+- Expected Behavior: Loop continues. Prints error: "Invalid input. Please enter a valid number."
+
+Test Case 3.4: Empty Input
+- Input Marks: [Press Enter without typing]
+- Expected Behavior: Loop continues. Prints error: "Invalid input. Please enter a valid number."
