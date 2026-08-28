@@ -6,7 +6,7 @@ The Student Grade Calculator is a Python-based command-line application designed
 ## 🗂️ Code Structure
 The repository is organized as follows to maintain a clear file hierarchy:
 *   `README.md`: Project documentation and setup guidelines.
-*   `grade_calculator.py`: The main Python executable script containing the program logic and grading functions[cite: 1].
+*   `grade_calculator.ipynb`: The main Python executable script containing the program logic and grading functions[cite: 1].
 *   `test_cases.txt`: A text file documenting various input scenarios and their expected outputs.
 *   `screenshots/`: A directory containing visual evidence of the program running successfully.
 
@@ -17,7 +17,7 @@ Follow these step-by-step instructions to configure and run the project locally:
 3.  **Navigate to the Directory:** Open your terminal or command prompt and change the directory to the project folder.
 4.  **Run the Application:** Execute the script using the following command:
     ```bash
-    python grade_calculator.py
+    python grade_calculator.ipynb
     ```
 5.  **Follow Prompts:** Enter the student's name and marks as prompted in the console[cite: 1].
 
