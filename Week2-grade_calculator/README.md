@@ -50,9 +50,9 @@ The application includes robust input validation ensuring that marks strictly fa
 
 ## 📸 Visual Documentation
 *(Note: Add actual image files to the `screenshots/` folder and update these paths)*
-*   ![Successful Grade Calculation](screenshots/success_output.png)
+*   ![Successful Grade Calculation](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week2-grade_calculator/Screenshot%202026-08-28%20090934.png)
     *Caption: Demonstrates a successful grade calculation with formatted emoji output.*
-*   ![Input Validation Handling](screenshots/error_handling.png)
+*   ![Input Validation Handling](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week2-grade_calculator/Screenshot%202026-08-28%20091502.png)
     *Caption: Demonstrates the program successfully catching and rejecting alphabetical inputs and out-of-range numbers.*
 
 ---
