@@ -13,10 +13,10 @@
 This project provides a comprehensive exploratory data analysis (EDA) pipeline for retail sales data [cite: 1]. The primary objective is to load, clean, and analyze transactional data to extract actionable business metrics. 
 
 **Key Objectives:**
-1. Compute the **Total Revenue** generated across all transactions [cite: 1].
-2. Identify the **Best Selling Product** based on total sales volume [cite: 1].
-3. Determine the **Best Performing Region** to understand geographical market strengths [cite: 1].
-4. Generate professional visualizations to easily communicate these metrics to stakeholders [cite: 1].
+1. Compute the **Total Revenue** generated across all transactions.
+2. Identify the **Best Selling Product** based on total sales volume.
+3. Determine the **Best Performing Region** to understand geographical market strengths.
+4. Generate professional visualizations to easily communicate these metrics to stakeholders.
 
 ---
 
@@ -43,7 +43,7 @@ Follow these steps to configure the project locally:
    pip install pandas matplotlib seaborn jupyter
    ```
 4. **Configuration:**
-   - Ensure the dataset `sales_data.csv` is placed in the root directory (or update the file path in the notebook) [cite: 1].
+   - Ensure the dataset `sales_data.csv` is placed in the root directory (or update the file path in the notebook).
 5. **Run the Notebook:**
    ```bash
    jupyter notebook sales_analysis.ipynb
@@ -77,19 +77,19 @@ The project utilizes a standard Python Data Science stack:
 
 *   **Architecture:** Linear script/notebook architecture ideal for EDA.
 *   **Data Structures:** 
-    *   **Pandas DataFrame:** Used as the primary data structure for loading, inspecting, and manipulating the 100-row tabular dataset [cite: 1].
+    *   **Pandas DataFrame:** Used as the primary data structure for loading, inspecting, and manipulating the 100-row tabular dataset.
 *   **Algorithms & Logic:**
-    *   **Data Cleaning:** Leverages `df.duplicated().sum()` to identify duplicate rows and `df.drop_duplicates(inplace=True)` to clean the dataset [cite: 1].
-    *   **Aggregation:** Uses `df.groupby('Product')['Total_Sales'].sum()` and `df.groupby('Region')['Total_Sales'].sum()` to aggregate sales data [cite: 1].
-    *   **Max Identification:** Applies the `.idxmax()` and `.max()` methods to programmatically isolate the highest performing categories without manual sorting [cite: 1].
-*   **Libraries:** `pandas` for data manipulation, `matplotlib.pyplot` and `seaborn` for plotting [cite: 1].
+    *   **Data Cleaning:** Leverages `df.duplicated().sum()` to identify duplicate rows and `df.drop_duplicates(inplace=True)` to clean the dataset.
+    *   **Aggregation:** Uses `df.groupby('Product')['Total_Sales'].sum()` and `df.groupby('Region')['Total_Sales'].sum()` to aggregate sales data.
+    *   **Max Identification:** Applies the `.idxmax()` and `.max()` methods to programmatically isolate the highest performing categories without manual sorting.
+*   **Libraries:** `pandas` for data manipulation, `matplotlib.pyplot` and `seaborn` for plotting.
 
 ---
 
 ## f) Testing Evidence
-Data validation and testing are integrated directly into the analysis pipeline to ensure data integrity before calculations are performed [cite: 1]:
+Data validation and testing are integrated directly into the analysis pipeline to ensure data integrity before calculations are performed:
 
-*   **Dimensionality Check:** The script validates the initial DataFrame shape (100 rows, 7 columns) [cite: 1].
-*   **Schema Validation:** Column names (`Date`, `Product`, `Quantity`, `Price`, `Customer_ID`, `Region`, `Total_Sales`) and data types are verified using `df.columns` and `df.info()` [cite: 1].
-*   **Null and Duplicate Validation:** The script actively checks for duplicate entries. In this dataset execution, it detected 0 duplicates, ensuring calculation accuracy without double-counting [cite: 1].
-*   **Output Validation:** Metric calculations yield exact, validated figures (e.g., Total Revenue: $12,365,048.00; Best Selling Product: Laptop at $3,889,210.00; Best Performing Region: North at $3,983,635.00) [cite: 1].
+*   **Dimensionality Check:** The script validates the initial DataFrame shape (100 rows, 7 columns).
+*   **Schema Validation:** Column names (`Date`, `Product`, `Quantity`, `Price`, `Customer_ID`, `Region`, `Total_Sales`) and data types are verified using `df.columns` and `df.info()`.
+*   **Null and Duplicate Validation:** The script actively checks for duplicate entries. In this dataset execution, it detected 0 duplicates, ensuring calculation accuracy without double-counting.
+*   **Output Validation:** Metric calculations yield exact, validated figures (e.g., Total Revenue: $12,365,048.00; Best Selling Product: Laptop at $3,889,210.00; Best Performing Region: North at $3,983,635.00).
