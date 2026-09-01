@@ -10,7 +10,7 @@ This project was built as part of a Data Science internship (Week 4 task) and de
 
 ```
 ├── README.md                  # Project overview and documentation
-├── main.py / analysis.ipynb   # Main analysis script / notebook
+├── Week4-DataVisualization.ipynb   # Main analysis script / notebook
 ├── data/                      # Raw and cleaned datasets
 │   └── sales_data.csv
 ├── visualizations/            # Exported charts and plots
@@ -18,7 +18,7 @@ This project was built as part of a Data Science internship (Week 4 task) and de
 │   ├── sales_by_product.png
 │   └── daily_sales_trend.png
 ├── report/                    # Summary report / findings
-│   └── summary_report.md
+│   └── Sales_Analysis_Report.pdf
 └── requirements.txt           # Python dependencies
 ```
 
