@@ -132,23 +132,23 @@ Seaborn and Matplotlib are used to visualize trends and comparisons across the d
 
 **Total Sales Over Time**
 
-![Total Sales Over Time](assets/sales_over_time.png)
+![Total Sales Over Time](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week5-Advance_Data_Manipulation_with_Pandas/Screenshot%202026-09-09%20112431.png)
 
 **Total Sales by Product**
 
-![Total Sales by Product](assets/sales_by_product.png)
+![Total Sales by Product](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week5-Advance_Data_Manipulation_with_Pandas/Screenshot%202026-09-09%20112438.png)
 
 **Top 10 Customers by Total Sales**
 
-![Top 10 Customers](assets/top10_customers.png)
+![Top 10 Customers](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week5-Advance_Data_Manipulation_with_Pandas/Screenshot%202026-09-09%20112445.png)
 
 **Total Sales by Product and Region**
 
-![Sales by Product and Region](assets/sales_product_region.png)
+![Sales by Product and Region](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week5-Advance_Data_Manipulation_with_Pandas/Screenshot%202026-09-09%20112454.png)
 
 **Churn Rate & Average Monthly Charges by Contract Type**
 
-![Churn vs Contract Type](assets/churn_contract.png)
+![Churn vs Contract Type](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week5-Advance_Data_Manipulation_with_Pandas/Screenshot%202026-09-09%20112503.png)
 
 ## 💡 Key Insights
 
