@@ -79,25 +79,28 @@ jupyter notebook Week6_Data_Visualization_Mastery_with_Seaborn.ipynb
 Sample outputs generated :
 
 ### Daily Sales Trend Over Time
-![Daily Sales Trend Over Time](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week4-DataVisualization/Screenshot%202026-09-01%20123225.png)
+![Daily Sales Trend Over Time](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Daily%20Sales%20Trend%20Over%20Time.png)
 
 ### Total Sales by Region
-![Total Sales by Region](assets/daily_sales_trend.png)
+![Total Sales by Region](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Total%20Sales%20by%20Region.png)
 
-### Distribution of Total Sales per Region
-![Distribution of Total Sales per Region](assets/regional_sales_boxplot.png)
+### Distribution of Total Sales per Region- Box Plot
+![Distribution of Total Sales per Region-Box Plot](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Distribution%20of%20Total%20Sales%20per%20Region.png)
 
 ### Total Sales by Product
-![Total Sales by Product](assets/correlation_heatmap.png)
+![Total Sales by Product](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Total%20Sales%20by%20Product.png)
 
 ### Customer Lifetime Value: Total Quantity vs. Total Sales
-![Customer Lifetime Value: Total Quantity vs. Total Sales](assets/correlation_heatmap.png)
+![Customer Lifetime Value: Total Quantity vs. Total Sales](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Customer%20Lifetime%20Value%20Total%20Quantity%20vs.%20Total%20Sales.png)
 
 ### Correlation Matrix of Numerical Features
-![Correlation Matrix of Numerical Features](assets/correlation_heatmap.png)
+![Correlation Matrix of Numerical Features](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Correlation%20Matrix%20of%20Numerical%20Features.png)
 
 ### Average Total Sales per Region
-![Average Total Sales per Region](assets/correlation_heatmap.png)
+![Average Total Sales per Region](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/Average%20Total%20Sales%20per%20Region.png)
+
+### Dashboard Demo
+![Dashboard_Demo](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week6-Data_Visualization_Mastery_with_Seaborn/dashboard_demo.gif)
 
 ## 🔍 Key Insights
 
