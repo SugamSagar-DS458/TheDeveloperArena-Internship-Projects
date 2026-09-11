@@ -76,32 +76,16 @@ jupyter notebook Week6_Data_Visualization_Mastery_with_Seaborn.ipynb
 
 ## 🖼️ Screenshots
 
-Below are sample outputs generated from the notebook. To (re)generate your own screenshots after running the analysis, add the following code snippet at the end of each visualization cell to save the figure directly to an `assets/` folder — these images can then be embedded here.
+Sample outputs generated :
 
-```python
-import os
-
-# Create a folder to store screenshots/exported charts
-os.makedirs("assets", exist_ok=True)
-
-# --- For Matplotlib / Seaborn figures ---
-plt.savefig("assets/regional_sales_boxplot.png", dpi=300, bbox_inches="tight")
-
-# --- For Plotly figures ---
-fig_sales_trend.write_image("assets/daily_sales_trend.png")   # requires: pip install -U kaleido
-fig_regional_sales.write_image("assets/regional_sales_bar.png")
-fig_product_sales.write_image("assets/product_sales_bar.png")
-```
-
-Once generated, reference the images in this README like so:
-
-```markdown
+### Total Sales by Region
+![Sales by Region](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week4-DataVisualization/Screenshot%202026-09-01%20123225.png)
 ![Daily Sales Trend](assets/daily_sales_trend.png)
 ![Regional Sales Distribution](assets/regional_sales_boxplot.png)
 ![Correlation Heatmap](assets/correlation_heatmap.png)
-```
 
-> 💡 Tip: `fig.write_image()` requires the `kaleido` package (`pip install -U kaleido`) to export Plotly charts as static images.
+
+
 
 ## 🔍 Key Insights
 
