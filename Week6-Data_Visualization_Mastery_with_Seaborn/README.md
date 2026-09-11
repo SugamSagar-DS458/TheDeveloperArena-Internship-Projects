@@ -78,14 +78,26 @@ jupyter notebook Week6_Data_Visualization_Mastery_with_Seaborn.ipynb
 
 Sample outputs generated :
 
+### Daily Sales Trend Over Time
+![Daily Sales Trend Over Time](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week4-DataVisualization/Screenshot%202026-09-01%20123225.png)
+
 ### Total Sales by Region
-![Sales by Region](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week4-DataVisualization/Screenshot%202026-09-01%20123225.png)
-![Daily Sales Trend](assets/daily_sales_trend.png)
-![Regional Sales Distribution](assets/regional_sales_boxplot.png)
-![Correlation Heatmap](assets/correlation_heatmap.png)
+![Total Sales by Region](assets/daily_sales_trend.png)
 
+### Distribution of Total Sales per Region
+![Distribution of Total Sales per Region](assets/regional_sales_boxplot.png)
 
+### Total Sales by Product
+![Total Sales by Product](assets/correlation_heatmap.png)
 
+### Customer Lifetime Value: Total Quantity vs. Total Sales
+![Customer Lifetime Value: Total Quantity vs. Total Sales](assets/correlation_heatmap.png)
+
+### Correlation Matrix of Numerical Features
+![Correlation Matrix of Numerical Features](assets/correlation_heatmap.png)
+
+### Average Total Sales per Region
+![Average Total Sales per Region](assets/correlation_heatmap.png)
 
 ## 🔍 Key Insights
 
