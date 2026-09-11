@@ -33,8 +33,6 @@ The dataset (`sales_data.csv`) contains transactional retail sales records with 
 | `Total_Sales` | Total revenue for the transaction |
 | `Customer_ID` | Unique customer identifier |
 
-> 📁 Place `sales_data.csv` in the project directory (or update the file path in the notebook) before running.
-
 ## 🛠️ Tech Stack
 
 - **Python 3**
