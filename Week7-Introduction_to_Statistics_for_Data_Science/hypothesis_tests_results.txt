@@ -1,0 +1,102 @@
+======================================================================
+HYPOTHESIS TESTS & STATISTICAL ANALYSIS RESULTS
+Statistical Analysis of Sales Data — The Developer Arena Internship
+======================================================================
+
+Dataset shape: 400 rows x 5 columns
+Columns: Region, Product, Quantity, Price, Total_Sales
+
+----------------------------------------------------------------------
+DESCRIPTIVE STATISTICS
+----------------------------------------------------------------------
+       Quantity    Price  Total_Sales
+count     400.0   400.00       400.00
+mean        6.0   575.90      3532.14
+std         2.3   304.81      2411.11
+min         1.0    66.72       101.45
+25%         4.0   371.93      1510.02
+50%         6.0   588.22      3090.46
+75%         8.0   913.30      5005.61
+max        13.0  1101.08     13600.08
+
+----------------------------------------------------------------------
+HYPOTHESIS TEST 1: One-Way ANOVA
+H0: Mean Total_Sales is equal across all Regions
+H1: At least one Region's mean Total_Sales differs
+----------------------------------------------------------------------
+F-statistic: 0.4627
+P-value: 0.7085
+Conclusion: No statistically significant difference in Total_Sales across Regions (p >= 0.05).
+
+----------------------------------------------------------------------
+HYPOTHESIS TEST 2: Independent Samples T-Test (Phone vs. Laptop)
+H0: Mean Total_Sales for Phone == Mean Total_Sales for Laptop
+H1: Mean Total_Sales for Phone != Mean Total_Sales for Laptop
+----------------------------------------------------------------------
+T-statistic: -9.8255
+P-value: 0.0000
+Conclusion: Statistically significant difference in Total_Sales between Phones and Laptops (p < 0.05).
+
+----------------------------------------------------------------------
+HYPOTHESIS TEST 3: Chi-Square Test of Independence (Product x Region)
+H0: Product and Region are independent
+H1: Product and Region are associated
+----------------------------------------------------------------------
+Contingency Table:
+Region      East  North  South  West
+Product                             
+Headphones    17     22     21    25
+Laptop        19     37     29    19
+Phone         46     34     35    25
+Tablet        17     32     10    12
+Chi-square statistic: 22.3755
+Degrees of freedom: 9
+P-value: 0.0078
+Conclusion: Statistically significant relationship between Product and Region (p < 0.05).
+
+----------------------------------------------------------------------
+CORRELATION ANALYSIS
+----------------------------------------------------------------------
+             Quantity   Price  Total_Sales
+Quantity       1.0000 -0.0221       0.5388
+Price         -0.0221  1.0000       0.7716
+Total_Sales    0.5388  0.7716       1.0000
+
+----------------------------------------------------------------------
+95% CONFIDENCE INTERVAL FOR MEAN TOTAL_SALES
+----------------------------------------------------------------------
+Sample Mean: 3532.14
+Standard Error: 120.56
+95% CI: (3295.86, 3768.43)
+
+----------------------------------------------------------------------
+MULTIPLE LINEAR REGRESSION: Total_Sales ~ Quantity + Price
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Total_Sales   R-squared:                       0.905
+Model:                            OLS   Adj. R-squared:                  0.904
+Method:                 Least Squares   F-statistic:                     1881.
+Date:                Sat, 12 Sep 2026   Prob (F-statistic):          3.06e-203
+Time:                        05:40:27   Log-Likelihood:                -3212.4
+No. Observations:                 400   AIC:                             6431.
+Df Residuals:                     397   BIC:                             6443.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept  -3537.5010    127.318    -27.785      0.000   -3787.803   -3287.199
+Quantity     583.0983     16.261     35.858      0.000     551.129     615.068
+Price          6.2009      0.123     50.543      0.000       5.960       6.442
+==============================================================================
+Omnibus:                       32.663   Durbin-Watson:                   2.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              124.493
+Skew:                           0.192   Prob(JB):                     9.26e-28
+Kurtosis:                       5.706   Cond. No.                     2.23e+03
+==============================================================================
+
+
+======================================================================
+END OF REPORT
+======================================================================
