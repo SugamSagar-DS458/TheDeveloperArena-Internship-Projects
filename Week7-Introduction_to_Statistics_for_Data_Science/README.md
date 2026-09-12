@@ -93,10 +93,10 @@ Each hypothesis test prints its statistic, p-value, and a plain-language conclus
 ## 🖼️ Screenshots
 
 ### Residual Plot
-![Residual Plot](screenshots/residual_plot.png)
+![Residual Plot](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week7-Introduction_to_Statistics_for_Data_Science/Residual%20Plot.png)
 
 ### Total Sales vs. Quantity Regression
-![Regression Plot](screenshots/regression_line_plot.png)
+![Regression Plot](https://github.com/SugamSagar-DS458/TheDeveloperArena-Internship-Projects/blob/main/Week7-Introduction_to_Statistics_for_Data_Science/Total_Sales%20vs.%20Quantity%20with%20Regression%20Line.png)
 
 ---
 
@@ -107,7 +107,6 @@ Each hypothesis test prints its statistic, p-value, and a plain-language conclus
 - **Chi-Square Test** assessed whether product type and region are independent.
 - **Regression Model** quantified how `Quantity` and `Price` jointly predict `Total_Sales`, with residual plots used to validate model assumptions (linearity, homoscedasticity).
 
-*(Exact statistics and conclusions are generated at runtime and printed in the notebook output.)*
 
 ---
 
