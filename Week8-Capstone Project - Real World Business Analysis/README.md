@@ -75,7 +75,15 @@ Open Jupyter Notebook and run `capstone_analysis.ipynb`:
 ```bash
 jupyter notebook capstone_analysis.ipynb
 ```
+---
 
+## 📅 60-Day Business Implementation Roadmap
+* **Weeks 1–2 (Integration):** Deploy model script to production SQL warehouse; run daily batch scoring.
+* **Weeks 3–4 (Service SLA):** Re-route support tickets from high-risk accounts to a **2-hour priority resolution SLA**.
+* **Weeks 5–6 (Lifecycle Automation):** Configure CRM to trigger category win-back coupons on **Day 10 of inactivity**.
+* **Weeks 7–8 (Controlled Trial):** Run 10% holdout A/B validation to measure net preserved Gross Merchandise Value (GMV).
+
+---
 
 ## 👤 Author
 * **Role:** Data Science Intern
