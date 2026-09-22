@@ -2,8 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Internship](https://img.shields.io/badge/Organization-The%20Developers%20Arena-1A365D.svg)](https://thedevelopersarena.com)
 
 > **Role:** Data Science Intern  
 > **Track:** Business Analytics & Applied Machine Learning  
@@ -71,34 +69,16 @@ git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
-### 2. Set Up Virtual Environment & Dependencies
-```bash
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-pip install -r requirements.txt
 ```
 
-### 3. Run the Pipeline
+### 2. Run the Pipeline
 Open Jupyter Notebook and run `capstone_analysis.ipynb`:
 ```bash
 jupyter notebook capstone_analysis.ipynb
 ```
 
----
-
-## 📅 60-Day Business Implementation Roadmap
-* **Weeks 1–2 (Integration):** Deploy model script to production SQL warehouse; run daily batch scoring.
-* **Weeks 3–4 (Service SLA):** Re-route support tickets from high-risk accounts to a **2-hour priority resolution SLA**.
-* **Weeks 5–6 (Lifecycle Automation):** Configure CRM to trigger category win-back coupons on **Day 10 of inactivity**.
-* **Weeks 7–8 (Controlled Trial):** Run 10% holdout A/B validation to measure net preserved Gross Merchandise Value (GMV).
-
----
 
 ## 👤 Author
 * **Role:** Data Science Intern
 * **Organization:** The Developers Arena
-* **Project Repository:** [GitHub Link](https://github.com/<your-username>/<your-repo-name>)
+* **Project Repository:** [GitHub Link](https://github.com/SugamSagar-DS458)
