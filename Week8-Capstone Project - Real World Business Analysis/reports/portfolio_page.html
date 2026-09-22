@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Customer Churn Intelligence & Lifecycle Optimization</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --accent: #319795;
+            --dark: #2d3748;
+            --light: #f7fafc;
+            --border: #e2e8f0;
+            --card: #ffffff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; padding-bottom: 60px; }
+        header { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { font-size: 2.4rem; margin-bottom: 12px; font-weight: 700; }
+        header p { font-size: 1.15rem; color: #e2e8f0; max-width: 800px; margin: 0 auto; }
+        .badges { margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+        .badge { background: rgba(255, 255, 255, 0.18); color: white; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; }
+        .container { max-width: 1100px; margin: 40px auto 0; padding: 0 20px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .card { background: var(--card); border-radius: 10px; padding: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08); border: 1px solid var(--border); }
+        .card h3 { color: var(--primary); margin-bottom: 12px; font-size: 1.25rem; }
+        .metric { font-size: 2.2rem; font-weight: 800; color: var(--secondary); margin-bottom: 4px; }
+        .metric-label { font-size: 0.9rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+        .section-title { font-size: 1.8rem; color: var(--primary); margin: 40px 0 20px; border-bottom: 2px solid var(--border); padding-bottom: 8px; }
+        .viz-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 24px; }
+        .viz-card { background: var(--card); border-radius: 10px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.06); }
+        .viz-card img { width: 100%; height: auto; display: block; border-bottom: 1px solid var(--border); }
+        .viz-card .info { padding: 16px; }
+        .viz-card h4 { color: var(--primary); margin-bottom: 6px; }
+        .viz-card p { font-size: 0.9rem; color: #4a5568; }
+        .deliverables-table { width: 100%; border-collapse: collapse; margin-top: 16px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.04); }
+        .deliverables-table th, .deliverables-table td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--border); }
+        .deliverables-table th { background-color: #edf2f7; color: var(--primary); font-weight: 600; }
+        .deliverables-table tr:hover { background-color: #f8fafc; }
+        .btn { display: inline-block; background: var(--secondary); color: white; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background: var(--primary); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Customer Churn Analytics & Retention Strategy</h1>
+        <p>End-to-End Predictive Modeling & Business Lifecycle Analytics Portfolio Deliverable</p>
+        <div class="badges">
+            <span class="badge">The Developers Arena Internship</span>
+            <span class="badge">Python 3.10</span>
+            <span class="badge">Scikit-Learn</span>
+            <span class="badge">Statsmodels</span>
+            <span class="badge">Machine Learning</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="grid-3">
+            <div class="card">
+                <div class="metric">18%</div>
+                <div class="metric-label">Projected Churn Reduction</div>
+                <p style="margin-top: 10px; font-size: 0.95rem; color: #4a5568;">Achieved through automated 14-day inactivity win-back triggers and high-priority onboarding routing.</p>
+            </div>
+            <div class="card">
+                <div class="metric">$210K</div>
+                <div class="metric-label">Retained Gross Merchandise Value</div>
+                <p style="margin-top: 10px; font-size: 0.95rem; color: #4a5568;">Annualized merchandise sales protected by intercepting high-risk accounts prior to terminal attrition.</p>
+            </div>
+            <div class="card">
+                <div class="metric">5.05x</div>
+                <div class="metric-label">Complaint Multiplier</div>
+                <p style="margin-top: 10px; font-size: 0.95rem; color: #4a5568;">Logit regression confirmed unresolved support complaints multiply odds of churning by 5.05 (p &lt; 0.001).</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Visual Insights & Analytical Findings</h2>
+        <div class="viz-gallery">
+            <div class="viz-card">
+                <img src="../visualizations/viz3_churn_by_complain_sat.png" alt="Churn by Satisfaction and Complaint">
+                <div class="info">
+                    <h4>Support Complaint Churn Multiplier</h4>
+                    <p>Submitting an unresolved support ticket multiplies churn risk even among accounts with 5-star baseline satisfaction (8.8% to 45.8%).</p>
+                </div>
+            </div>
+            <div class="viz-card">
+                <img src="../visualizations/viz4_recency_vs_cashback.png" alt="Recency vs Cashback">
+                <div class="info">
+                    <h4>The 14-Day Dormancy Boundary</h4>
+                    <p>Inactivity exceeding 14 days causes churn probability to skyrocket past 62%, establishing an empirical trigger window on Day 10.</p>
+                </div>
+            </div>
+            <div class="viz-card">
+                <img src="../visualizations/viz5_eval_and_feature_importance.png" alt="Model Evaluation and Features">
+                <div class="info">
+                    <h4>Random Forest Classifier & Feature Weights</h4>
+                    <p>Predictive ensemble delivers 89.3% accuracy and 0.76 - 0.91 AUC, prioritized by Complaint history, Tenure, and Order recency.</p>
+                </div>
+            </div>
+            <div class="viz-card">
+                <img src="../visualizations/viz1_tenure_churn.png" alt="Tenure Distribution">
+                <div class="info">
+                    <h4>Early-Tenure Onboarding Cliff</h4>
+                    <p>Attrition is concentrated in months 0 through 3, validating the need for automated concierge support for first-time shoppers.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Complete Project Deliverables</h2>
+        <table class="deliverables-table">
+            <thead>
+                <tr>
+                    <th>Deliverable</th>
+                    <th>Format</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Executive Summary</b></td>
+                    <td>1-Page PDF</td>
+                    <td>Executive-ready brief outlining the core business urgency, findings, ROI, and roadmap.</td>
+                </tr>
+                <tr>
+                    <td><b>Technical Report</b></td>
+                    <td>Multi-Page PDF</td>
+                    <td>Comprehensive 5+ page paper with complete statistical models, formulas, and cluster data.</td>
+                </tr>
+                <tr>
+                    <td><b>Business Presentation</b></td>
+                    <td>12 Slides PPTX</td>
+                    <td>Executive slide deck with visual charts, methodology, and operational timeline.</td>
+                </tr>
+                <tr>
+                    <td><b>Full Code Repository</b></td>
+                    <td>Jupyter Notebooks</td>
+                    <td>Modular notebooks covering data cleaning, EDA, and 3 ML analysis techniques.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
