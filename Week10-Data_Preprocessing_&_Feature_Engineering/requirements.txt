@@ -1,0 +1,13 @@
+# Core Numerical and Data Manipulation Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Preprocessing
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Interactive Notebook Environment & Display
+ipykernel>=6.25.0
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipython>=8.15.0
